@@ -20,4 +20,15 @@ for num in range(1,101):
 
 print(podzielne_przez_5)  
 
-print(list(map(lambda x: x**3, podzielne_przez_5)))      
+print(list(map(lambda x: x**3, podzielne_przez_5)))   
+
+#%%
+
+podzielne_przez_3 = []
+
+for num in range(1,101):
+    if(num%3)==0:
+        podzielne_przez_3.append(num)
+
+print(podzielne_przez_3)  
+
